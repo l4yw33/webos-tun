@@ -1,0 +1,14 @@
+{
+  "id": "com.webosbrew.xraytun",
+  "version": "1.3.0",
+  "vendor": "webos-xray-tun",
+  "type": "web",
+  "main": "index.html",
+  "title": "Xray TUN",
+  "icon": "assets/icon.png",
+  "largeIcon": "assets/largeIcon.png",
+  "appDescription": "Manual Xray/sing-box TUN VPN manager for rooted LG webOS TVs.",
+  "resolution": "1920x1080",
+  "bgColor": "#0b0f17",
+  "uiRevision": 2
+}

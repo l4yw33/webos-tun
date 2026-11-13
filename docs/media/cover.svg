@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="title desc">
+  <title id="title">webOS TUN</title>
+  <desc id="desc">VPN manager for rooted LG TVs. A graphite header with a television illustration and a restrained mint power indicator.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#171c23"/><stop offset="1" stop-color="#090d12"/></linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1c2c2b"/><stop offset="1" stop-color="#111a1e"/></linearGradient>
+    <linearGradient id="metal"><stop stop-color="#66757c"/><stop offset=".5" stop-color="#38464d"/><stop offset="1" stop-color="#65716f"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#43685c" stop-opacity=".23"/><stop offset="1" stop-color="#233c34" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#b1c5cb" stroke-opacity=".035"/></pattern>
+    <clipPath id="clip"><rect width="1280" height="400" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1280" height="400" fill="url(#background)"/>
+    <rect width="1280" height="400" fill="url(#grid)"/>
+    <circle cx="993" cy="184" r="256" fill="url(#halo)"/>
+    <path d="M56 64h24" stroke="#a5c9b8" stroke-width="2"/>
+    <text x="92" y="69" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="3" fill="#9caab4">WEBOS / NETWORK UTILITY</text>
+    <text x="52" y="179" font-family="Arial,Helvetica,sans-serif" font-size="77" font-weight="700" letter-spacing="-3" fill="#edf1f4">webOS TUN</text>
+    <text x="57" y="226" font-family="Arial,Helvetica,sans-serif" font-size="23" fill="#9baab7">VPN manager for rooted LG TVs</text>
+    <path d="M58 270h470" stroke="#34414b"/>
+    <text x="58" y="307" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="1" fill="#c1cbd1">Hysteria2</text>
+    <circle cx="157" cy="302" r="2" fill="#60786d"/>
+    <text x="178" y="307" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="1" fill="#c1cbd1">VLESS</text>
+    <circle cx="253" cy="302" r="2" fill="#60786d"/>
+    <text x="274" y="307" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="1" fill="#c1cbd1">Trojan</text>
+    <text x="58" y="361" font-family="Arial,Helvetica,sans-serif" font-size="11" letter-spacing="2.5" fill="#637682">XRAY + SING-BOX</text>
+    <g fill="none">
+      <ellipse cx="999" cy="190" rx="193" ry="153" stroke="#7ea895" stroke-opacity=".07"/>
+      <ellipse cx="999" cy="190" rx="165" ry="130" stroke="#7ea895" stroke-opacity=".10"/>
+      <path d="M718 187h93m376 0h41" stroke="#637d74" stroke-opacity=".45" stroke-dasharray="3 9"/>
+      <rect x="819" y="83" width="368" height="224" rx="13" fill="#0b1016" stroke="url(#metal)" stroke-width="1.5"/>
+      <rect x="829" y="93" width="348" height="202" rx="5" fill="url(#screen)"/>
+      <path d="m838 103 330 181" stroke="#a9c7b7" stroke-opacity=".035" stroke-width="42"/>
+      <circle cx="1003" cy="192" r="63" fill="#21372f" fill-opacity=".5" stroke="#526e60" stroke-opacity=".7"/>
+      <circle cx="1003" cy="192" r="76" stroke="#88b39b" stroke-opacity=".08"/>
+      <path d="M1003 161v31m-20-22a29 29 0 1 0 40 0" stroke="#b0d4bf" stroke-width="4.5" stroke-linecap="round"/>
+      <path d="m973 309-12 18h84l-12-18" stroke="#5a6869" stroke-width="2"/>
+      <path d="M931 329h144" stroke="#5a6869" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <circle cx="1003" cy="301" r="1.5" fill="#b0d4bf"/>
+    <circle cx="1228" cy="187" r="3" fill="#94baa6"/>
+    <text x="1003" y="364" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" letter-spacing="2.5" fill="#637682">REMOTE CONTROL / EN + RU</text>
+  </g>
+</svg>

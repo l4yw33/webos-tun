@@ -1,0 +1,42 @@
+{
+  "log": { "loglevel": "warning" },
+  "inbounds": [
+    {
+      "tag": "socks-in",
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": { "udp": true, "auth": "noauth" }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "SERVER_OR_IP",
+            "port": 443,
+            "password": "PASSWORD"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "SNI_HOST",
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "alpn": ["h2"]
+        },
+        "grpcSettings": {
+          "authority": "SNI_HOST",
+          "serviceName": "/grpc/path/or/service",
+          "multiMode": false
+        }
+      }
+    }
+  ]
+}

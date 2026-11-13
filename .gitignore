@@ -1,0 +1,38 @@
+# User profiles and generated secrets
+*.url
+profile.json
+xray.json
+server_host
+server_ip
+state/
+logs/
+*.log
+
+# Runtime binaries supplied by users
+app/bin/xray
+app/bin/sing-box
+
+# Generated packages and diagnostics
+*.ipk
+*.tgz
+*.tar.gz
+webos-xray-tun-diagnostics-*/
+
+# Local tooling
+node_modules/
+dist/
+build/
+.DS_Store
+Thumbs.db
+
+.build/
+dist/
+app/bin/xraytun-daemon
+
+# Local private materials and caches
+.go-cache/
+*private-backup*/
+*.pem
+*.key
+.env
+.env.*
